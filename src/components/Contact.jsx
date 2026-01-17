@@ -1,4 +1,5 @@
 import React from 'react'
+import homeGlobe from '../assets/home-globe.svg'
 
 function Contact() {
     return (
@@ -6,7 +7,7 @@ function Contact() {
             {/* Left Side: Globe Visual */}
             <div className="flex-1 relative min-h-[400px] md:min-h-0 flex items-center justify-center bg-[#071933]">
                 <div className="absolute inset-0 opacity-40">
-                    <img src="/src/assets/home-globe.svg" alt="Globe" className="w-full h-full object-cover" />
+                    <img src={homeGlobe} alt="Globe" className="w-full h-full object-cover" />
                 </div>
 
                 {/* Floating Tags (Approximate positions from image) */}
