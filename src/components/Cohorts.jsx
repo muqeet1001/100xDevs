@@ -1,4 +1,8 @@
 import React from 'react'
+import cohort1 from '../assets/2025-12-21-0_2662284761741538.jpg'
+import webdev from '../assets/webdev.jpg'
+import cohort3 from '../assets/2025-12-21-0_03044769464934871.jpg'
+import cohort4 from '../assets/2025-12-21-0_8185946727813729.jpg'
 
 function Cohorts() {
     const cohorts = [
@@ -7,7 +11,7 @@ function Cohorts() {
             description: "Web dev (Every Friday) Devops (Every Friday) Machine Learning and AI (Every Saturday) Web3 (Every Sunday) DSA (Every Thursday)",
             price: "5,999",
             originalPrice: "8,999",
-            image: "/src/assets/2025-12-21-0_2662284761741538.jpg",
+            image: cohort1,
             link: "/new-courses/24"
         },
         {
@@ -15,7 +19,7 @@ function Cohorts() {
             description: "Web dev Devops",
             price: "3,999",
             originalPrice: "5,999",
-            image: "/src/assets/webdev.jpg",
+            image: webdev,
             link: "/new-courses/21"
         },
         {
@@ -23,7 +27,7 @@ function Cohorts() {
             description: "Complete Solana and Web3 Bootcamp",
             price: "3,999",
             originalPrice: "5,999",
-            image: "/src/assets/2025-12-21-0_03044769464934871.jpg",
+            image: cohort3,
             link: "/new-courses/22"
         },
         {
@@ -31,7 +35,7 @@ function Cohorts() {
             description: "AI and ML Syllabus",
             price: "3,999",
             originalPrice: "5,999",
-            image: "/src/assets/2025-12-21-0_8185946727813729.jpg",
+            image: cohort4,
             link: "/new-courses/23"
         }
     ]

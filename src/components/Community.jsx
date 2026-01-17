@@ -1,11 +1,16 @@
 import React from 'react'
+import community1 from '../assets/community1.png'
+import community2 from '../assets/community2.png'
+import community3 from '../assets/community3.png'
+import community4 from '../assets/community4.png'
+import community5 from '../assets/community5.png'
 
 function Community() {
     const bottomImages = [
-        '/src/assets/community2.png',
-        '/src/assets/community3.png',
-        '/src/assets/community4.png',
-        '/src/assets/community5.png'
+        community2,
+        community3,
+        community4,
+        community5
     ]
 
     return (
@@ -40,7 +45,7 @@ function Community() {
                             {/* Jagged Sticker Border Effect */}
                             <div className="absolute inset-[-15px] bg-white rounded-tl-[100px] rounded-br-[80px] rounded-tr-[40px] rounded-bl-[20px] rotate-[-2deg] opacity-100 -z-10 shadow-2xl"></div>
                             <img
-                                src="/src/assets/community1.png"
+                                src={community1}
                                 alt="Community sticker"
                                 className="w-[500px] h-auto rounded-tl-[100px] rounded-br-[80px] rounded-tr-[40px] rounded-bl-[20px] object-cover rotate-[-2deg] transition-transform group-hover:rotate-0 duration-500"
                             />

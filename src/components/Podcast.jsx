@@ -1,18 +1,21 @@
 import React from 'react'
+import thumb1 from '../assets/hqdefault.jpg'
+import thumb2 from '../assets/hqdefault (1).jpg'
+import thumb3 from '../assets/hqdefault (2).jpg'
 
 function Podcast() {
     const episodes = [
         {
             title: "How a 21-Year-Old Got an ₹80 LPA Offer (Before Degree!)",
-            thumbnail: "/src/assets/hqdefault.jpg"
+            thumbnail: thumb1
         },
         {
             title: "$25000 Bug Bounty, $100k Offer as a Solana Engineer",
-            thumbnail: "/src/assets/hqdefault (1).jpg"
+            thumbnail: thumb2
         },
         {
             title: "How He Cracked A 40Lakhs Remote Coding Job (Complete Story)",
-            thumbnail: "/src/assets/hqdefault (2).jpg"
+            thumbnail: thumb3
         }
     ]
 

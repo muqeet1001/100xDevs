@@ -1,4 +1,5 @@
 import React from 'react'
+import harkirat from '../assets/harkirat.png'
 
 function Mentorship() {
     return (
@@ -8,7 +9,7 @@ function Mentorship() {
                     <div className="relative group">
                         <div className="absolute -inset-4 bg-secondary/20 rounded-[4rem] blur-2xl group-hover:bg-secondary/30 transition-all duration-700 -z-10"></div>
                         <img
-                            src="/src/assets/harkirat.png"
+                            src={harkirat}
                             alt="Harkirat Singh"
                             className="w-full max-w-sm mx-auto md:mx-0 rounded-[3rem] shadow-2xl relative z-10 hover:scale-[1.03] transition-transform duration-500"
                         />

@@ -1,10 +1,12 @@
 import React from 'react'
+import homeGlobe from '../assets/home-globe.svg'
+import heroImg from '../assets/hero-img.webp'
 
 function Body() {
     return (
         <section className="bg-white py-12 md:py-24 px-4 md:px-20 overflow-hidden relative">
             <div className="absolute top-0 right-0 w-full h-full opacity-30 -z-10 pointer-events-none">
-                <img src="/src/assets/home-globe.svg" alt="" className="w-full h-full object-cover" />
+                <img src={homeGlobe} alt="" className="w-full h-full object-cover" />
             </div>
             <div className="max-w-7xl mx-auto flex flex-col md:flex-row items-center gap-12 relative z-10">
                 <div className="flex-1 text-center md:text-left">
@@ -37,7 +39,7 @@ function Body() {
 
                         <div className="relative z-10 rounded-[3rem] overflow-hidden shadow-2xl bg-primary">
                             <img
-                                src="/src/assets/hero-img.webp"
+                                src={heroImg}
                                 alt="Hero"
                                 className='w-full h-auto object-cover'
                             />
